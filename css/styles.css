@@ -1,0 +1,228 @@
+:root {
+  --color-headings-dark: #2e2f42;
+  --color-headings-light: #ffffff;
+  --color-primery: #4d5ae5;
+  --color-primery-light: #f4f4fd;
+  --color-text-dark: #434455;
+  --color-text-light: #e7e9fc;
+  --color-dgd-button-active: #404bbf;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--color-headings-dark);
+}
+
+/* =============== COMPONENTS ===============*/
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+/* =============== /COMPONENTS ===============*/
+
+/* =============== HEADER =============== */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: var(--color-headings-dark);
+  text-transform: uppercase;
+}
+
+.logo-first {
+  color: var(--color-primery);
+}
+
+.menu-iteam {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-headings-dark);
+}
+
+.menu-iteam:hover,
+.menu-iteam:focus {
+  color: var(--color-primery);
+}
+
+.contact-iteam {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text-dark);
+}
+
+.contact-iteam:hover,
+.contact-iteam:focus {
+  color: var(--color-primery);
+}
+
+.navigation .menu-iteam.current {
+  color: var(--color-primery);
+}
+
+/* =============== /HEADER =============== */
+
+/* =============== HERO =============== */
+
+.hero {
+  background-color: var(--color-headings-dark);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-headings-light);
+}
+
+.hero-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-headings-light);
+  background: var(--color-primery);
+  border: var(--color-primery);
+  cursor: pointer;
+}
+
+.hero-button:active {
+  background: var(--color-dgd-button-active);
+  border: var(--color-dgd-button-active);
+}
+
+/* =============== /HERO =============== */
+
+/* =============== FEATURES =============== */
+
+.subtitle-feature {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-feature {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-dark);
+}
+
+/* =============== /FEATURES =============== */
+
+/* =============== WORKS =============== */
+
+.works-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* =============== /WORKS =============== */
+
+/* =============== TEAM =============== */
+
+.team {
+  background-color: var(--color-primery-light);
+}
+
+.team-item {
+  background-color: var(--color-headings-light);
+}
+.team-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  letter-spacing: 0.02em;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-dark);
+}
+
+/* =============== /TEAM =============== */
+
+/* =============== FOOTER =============== */
+
+.footer {
+  background-color: var(--color-headings-dark);
+}
+
+.logo-second {
+  color: var(--color-primery-light);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-light);
+}
+
+/* =============== /FOOTER =============== */
+
+/* =============== PORTFOLIO =============== */
+.filter-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--color-primery-light);
+  border: 1px solid var(--color-text-light);
+  border-radius: 4px;
+  color: var(--color-primery);
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus,
+.filter-button:active {
+  background: var(--color-dgd-button-active);
+  border: 1px solid var(--color-dgd-button-active);
+  border-radius: 4px;
+  color: var(--color-headings-light);
+}
+
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-headings-dark);
+}
+
+.portfolio-filter-iteam {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-dark);
+}
+
+/* =============== /PORTFOLIO =============== */
