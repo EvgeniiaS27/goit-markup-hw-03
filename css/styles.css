@@ -152,7 +152,9 @@ body {
 .page-header-container {
   display: flex;
   align-items: center;
-  gap: 40px;
+}
+
+.header {
   border-bottom: 1px solid var(--color-text-light);
 }
 
@@ -207,6 +209,8 @@ body {
   padding: 16px 32px;
 }
 
+.hero-button:hover,
+.hero-button:focus,
 .hero-button:active {
   background: var(--color-dgd-button-active);
   border: var(--color-dgd-button-active);
@@ -294,12 +298,13 @@ body {
   color: var(--color-primery-light);
 }
 
-.logo-foter {
+.logo-footer {
+  display: inline-block;
   margin: 0 0 16px;
   padding: 0;
 }
 
-.footer .text {
+.footer-text {
   color: var(--color-text-light);
   width: 264px;
 }
@@ -349,7 +354,17 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  border: 1px solid var(--color-text-light);
+  border-left: 1px solid var(--color-text-light);
+  border-bottom: 1px solid var(--color-text-light);
+  border-right: 1px solid var(--color-text-light);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-card-content:hover,
+.portfolio-card-content:focus {
+  border: 0.5px solid var(--color-primery-light);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-iteam {
